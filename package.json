@@ -1,0 +1,25 @@
+{
+	"name": "ngdocs",
+	"version": "0.1.0",
+	"description": "A documentation engine for angular.js, based on original angular.js scripts",
+	"keywords": ["angular", "docs"],
+	"homepage": "https://github.com/idanush/angular-docs",
+	"license" : "MIT", 
+	"dependencies": {
+		"underscore": "1.4.4",
+		"q-fs": "0.1.36",
+		"qq": "0.3.5",
+		"optimist": "0.3.5",
+     	"nconf": "0.6.7",
+		"showdown" : "0.3.1"
+	},
+	"devDependencies": {
+		"jshint": "1.1.0"
+	},
+	"engines" : { "node" : ">=0.8.15" },
+	"author": {"name": "Idan Bauer", "email": "idanb@hotmail.com"},
+	"preferGlobal": "true",
+	"bin": {
+		"ngdocs": "./bin/ngdocs.js"
+	}
+}

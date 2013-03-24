@@ -1,0 +1,5 @@
+{
+	'outputDir': 'build/docs',
+	'contentDir': 'content',
+	'apiDir': 'js'
+}
